@@ -1,0 +1,117 @@
+header{
+    background: rgb(112,123,198);
+background: radial-gradient(circle, rgba(112,123,198,1) 0%, rgba(0,0,0,1) 40%);
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    padding: .8rem 3rem;
+
+}
+
+
+
+h1{
+
+    text-align: center;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    font-weight: bold;
+
+}
+
+.container{
+
+    background-color: gainsboro;
+
+    /* display: flex; */
+
+    margin: 25px auto;
+
+    width: 100vw;
+
+}
+
+ 
+
+.prompt_builder{
+
+    background-color: antiquewhite;
+
+    display: flex;
+
+    justify-content: center;
+
+    width: 40%; 
+    height: auto;
+
+    padding: 20px;
+
+    border: 2px solid black;
+
+    border-radius: 10px;
+
+}
+
+form{
+
+    display: flex;
+
+    flex-direction: column;
+
+    width: 80%;
+
+}
+
+h3{
+
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(32, 21, 134);
+    margin: 10px auto;
+
+
+} 
+
+.input{
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-evenly;
+
+    padding: 10px 10px;
+
+    width: 80%;
+
+}
+
+.prompt_builder2{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    width: 40%; 
+    height: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.solution{
+    background-color: antiquewhite;
+    border: 2px solid black;
+    border-radius: 10px;
+    min-height: 120px;
+    padding: 0px 50px;
+    margin: auto 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+ 
